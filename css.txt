@@ -1,0 +1,132 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #111827, #1e293b);
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    max-width: 420px;
+    margin: auto;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 25px;
+
+    backdrop-filter: blur(15px);
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+    font-size: 80px;
+
+    margin-bottom: 15px;
+
+    transition: 0.3s;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.status {
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #94a3b8;
+
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    width: 120px;
+    padding: 14px;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+#onBtn {
+    background: #22c55e;
+    color: white;
+}
+
+#offBtn {
+    background: #ef4444;
+    color: white;
+}
+
+.connection {
+    margin-top: 30px;
+
+    color: #cbd5e1;
+
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#connectionDot {
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+
+    background: #facc15;
+}
+
+.light-on {
+    filter: drop-shadow(0 0 25px #facc15);
+    transform: scale(1.1);
+}
+```

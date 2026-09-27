@@ -1,0 +1,54 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Light Control</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <div class="icon" id="lightIcon">💡</div>
+
+            <h1>Smart Light</h1>
+
+            <p class="subtitle">IoT Light Control System</p>
+
+            <div class="status" id="status">
+                Connecting...
+            </div>
+
+            <div class="buttons">
+
+                <button id="onBtn" onclick="turnOn()">
+                    ON
+                </button>
+
+                <button id="offBtn" onclick="turnOff()">
+                    OFF
+                </button>
+
+            </div>
+
+            <div class="connection">
+                <span id="connectionDot"></span>
+                <span id="connectionText">Connecting to Firebase...</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
+```
